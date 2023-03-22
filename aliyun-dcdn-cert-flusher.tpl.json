@@ -1,1 +1,18 @@
-{}
+{
+  "sites": [
+    {
+      "access_key": "domain1_access_key",
+      "access_secret": "domain1_access_secret",
+      "cert_path": "path_to_domain1_pem_file",
+      "cert_key": "path_to_domain1_key_file",
+      "domain": "dimain1.example.com"
+    },
+    {
+      "access_key": "domain2_access_key",
+      "access_secret": "domain2_access_secret",
+      "cert_path": "path_to_domain2_pem_file",
+      "cert_key": "path_to_domain2_key_file",
+      "domain": "dimain2.example.com"
+    }
+  ]
+}

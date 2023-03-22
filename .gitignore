@@ -3,3 +3,5 @@
 **/logs
 app.log
 target/**
+aliyun-dcdn-cert-flusher.json
+cert
