@@ -30,10 +30,10 @@ jobs:
           fi
 
       - name: Build amd64
-        run: env GOOS=linux GOARCH=amd64 go build -ldflags "-s -w " -v .
+        run: env GOOS=linux GOARCH=amd64 go build -ldflags "-s -w " -v ./cmd/aliyun-dcdn-cert-flusher
 
       - name: Build arm64
-        run: env GOOS=linux GOARCH=arm64 go build -ldflags "-s -w " -v .
+        run: env GOOS=linux GOARCH=arm64 go build -ldflags "-s -w " -v ./cmd/aliyun-dcdn-cert-flusher
 
   #   - name: Test
   #     run: go test -v .
